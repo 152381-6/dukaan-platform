@@ -1,0 +1,101 @@
+style.css
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Cairo', sans-serif;
+  direction: rtl;
+  background-color: #f7f7f7;
+}
+
+header {
+  background-color: #0c5b35;
+  color: white;
+  padding: 20px 0;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  padding: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  background-color: #e0ffe3;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.hero h2 {
+  font-size: 36px;
+}
+
+.cta {
+  background-color: #0c5b35;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.shops {
+  padding: 40px 0;
+}
+
+.shop-list {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.shop-card {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  width: 250px;
+}
+
+.shop-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.order-btn {
+  background-color: #0c5b35;
+  color: white;
+  padding: 8px 15px;
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.how-it-works {
+  background-color: #f0f0f0;
+  padding: 40px 0;
+}
+
+footer {
+  background-color: #0c5b35;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
